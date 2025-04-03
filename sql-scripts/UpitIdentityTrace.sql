@@ -1,0 +1,13 @@
+SELECT TOP (1000) [Message]
+      ,[Timestamp]
+      ,[RequestId]
+      ,[RequestURI]
+      ,[Exception]
+      ,[Request]
+      ,[Response]
+      ,[CustomerId]
+      ,[ApplicationId]
+      ,[Context]
+      ,[Timespan]
+  FROM [Identity_Halk].[dbo].[Trace]
+  ORDER BY Timestamp DESC

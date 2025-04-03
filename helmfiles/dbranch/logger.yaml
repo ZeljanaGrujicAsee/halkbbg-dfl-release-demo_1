@@ -1,0 +1,14 @@
+## LOGGER
+# https://github.com/assecosee/logger
+chart:
+  name: "logger"
+  repository: "dbranch/logger"
+  version: "{{ requiredEnv `ASEE_SERVICE_LOGGER_VERSION` }}"
+  needs: 
+    - "authentication"
+    - "configuration"
+    - "directory"
+    - "pub-sub"
+
+values:
+  ### AUTHENTICATION
