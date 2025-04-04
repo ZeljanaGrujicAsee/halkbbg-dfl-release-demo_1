@@ -29,7 +29,7 @@ halkbbg-dfl-release-demo_1/
 │   │   │  ├── release-2.0.0/
 │   │   │  ├── ...
 │   │   │  └── ...
-**├── Archive/
+├── Archive/
 │   ├── documents/
 │   │   ├── ProizvodA/
 │   │   │  ├── release-1.0.0/
@@ -46,11 +46,12 @@ halkbbg-dfl-release-demo_1/
 │   │   ├── ProizvodB/
 │   │   │  ├── release-2.0.0/
 │   │   │  ├── ...
-│   │   │  └── ...**
+│   │   │  └── ...
 └── ...
 ```
 
 * **` halkbbg-dfl-release-demo_1/`**: Root direktorijum repozitorijuma.
+* * **` Archive branch`**: grana na kojoj će se arhivirati dokumenta isporučena banci.
 * **`ProizvodA/`, `ProizvodB/`, ...**: Folder za svaki proizvod npr. DigitalBranch, DigitalCIF, DigitalOrigination....
 * **`release-1.0.0/`, `release-1.1.0/`, ...**: Podfolder za svaku verziju (release) proizvoda.
 * **`YYYY-MM-DD_HHMMSS/`**: Podfolder za svaki pull request, sa timestamp-om kreiranja PR-a.
