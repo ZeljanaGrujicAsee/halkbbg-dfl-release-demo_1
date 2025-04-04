@@ -51,7 +51,7 @@ halkbbg-dfl-release-demo_1/
 ```
 
 * **` halkbbg-dfl-release-demo_1/`**: Root direktorijum repozitorijuma.
-* * **` Archive branch`**: grana na kojoj će se arhivirati dokumenta isporučena banci.
+* **` Archive branch`**: grana na kojoj će se arhivirati dokumenta isporučena banci.
 * **`ProizvodA/`, `ProizvodB/`, ...**: Folder za svaki proizvod npr. DigitalBranch, DigitalCIF, DigitalOrigination....
 * **`release-1.0.0/`, `release-1.1.0/`, ...**: Podfolder za svaku verziju (release) proizvoda.
 * **`YYYY-MM-DD_HHMMSS/`**: Podfolder za svaki pull request, sa timestamp-om kreiranja PR-a.
@@ -60,7 +60,7 @@ halkbbg-dfl-release-demo_1/
 ## Mehanizam Arhiviranja
 
 1.  **Kreiranje Pull Request-a (PR), Merge PR-a, Kreiranje Release-a, Kopiranje Dokumenata:**
-    * Pull request sa izmenama dokumenata se kreira na repozitorijumu (https://github.com/assecosee/halkbbg-dfl-release/tree/main) koji generiše .zip koji se isporučuje banci, a sadržaj repoa-a se prazni i priprema za sledeću isporuku, pre nego što se sadržaj ovog repo-a isprazni sadržaj documents podfoldera se kopira na **Archive granu** repozitorijum.
+    * Pull request sa izmenama dokumenata se kreira na repozitorijumu (https://github.com/assecosee/halkbbg-dfl-release/tree/main) koji generiše .zip koji se isporučuje banci, a sadržaj repoa-a se prazni i priprema za sledeću isporuku, pre nego što se sadržaj ovog repo-a isprazni sadržaj documents podfoldera se kopira na **Archive granu** repozitorijuma.
 
 ## Prednosti
 
